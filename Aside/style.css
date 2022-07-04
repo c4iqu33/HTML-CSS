@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*  MAX WIDTH = TELAS MENORES QUE ALGUMA RESOLUÇÂO
+    MIN WIDTH = TELAS MAIORES QUE ALGUMA RESOLUÇÂO */
+
+
+h1 {
+    color: red;
+}
+
+/*  2 - Sintaxe */
+@media screen and (max-width: 500px) {
+    h1 {
+        color: blue;
+    }
+}
