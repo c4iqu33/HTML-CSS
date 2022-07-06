@@ -1,19 +1,1 @@
 @charset "UTF-8";
-
-.flex-pai {
-    height: 600px;
-    background-color: blue;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-.flex-pai div {
-    flex-grow: 1;
-    background-color: white;
-    border: 1px solid black;
-    margin: 5px;
-    padding: 30px;
-    text-align: center;
-}
